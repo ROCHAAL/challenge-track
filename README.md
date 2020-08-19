@@ -2,6 +2,7 @@
 >This is a notes app 
 
 > To run these tests:
+
     .Create an HTML page.
     .Create the note-model.js file.
     .Use a script tag to include note-model.js in index.html.
