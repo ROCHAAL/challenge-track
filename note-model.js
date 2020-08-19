@@ -3,9 +3,11 @@
     function Note(text){
         this.text = text; // this is working as an instance variable // the first text works as an atrribute.
     };
-    Note.prototype.showText = function() {
+    Note.prototype.showText = function() { 
         return this.text;
     }
+
+    
 
     
 

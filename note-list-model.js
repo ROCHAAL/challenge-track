@@ -3,6 +3,9 @@
        this.list = [] // store an array of note model.
     };// module we captalize the first letter of each word
     
+    NoteList.prototype.createNote = function() {
+        return this.text
+    }
 
     
     exports.NoteList = NoteList; 

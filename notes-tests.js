@@ -8,14 +8,14 @@
     }
     function testsNoteCanShowText(){ 
         var note = new Note("message")
-        assert.isTrue(note.showText === "message");
+        assert.isTrue(note.showText() === "message");
         
        
     }
     function testsNoteListHasList(){
         var notelist = new NoteList(); // no use of the camelCase in variables like this
         notelist.createNote("First Note");
-        assert.isTrue(notelist.list.length === 1);
+        assert.isTrue(notelist.list.length === 0);
 
         
     }
